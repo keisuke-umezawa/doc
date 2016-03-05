@@ -10,7 +10,9 @@
           date
           who
     * この時、末尾が\r\n(windowsの改行)だと実行できないことがある
-  * $ ./test.sh
+           $ dos2unix.exe test.sh
+  * 下記コードで実行する
+           $ ./test.sh
   
 ## Shellが解釈する記号 
 1. 入出力リダイレクション
@@ -31,9 +33,9 @@
   
 ## 変数
 ### 変数の定義・参照・解除
-     $ name=BTMU
+     $ name=ATM
      $ echo $name
-     BTMU
+     ATM
      $ unset name
 
 ### 標準入力からの変数定義
